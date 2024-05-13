@@ -30,9 +30,9 @@ modSettings {
     modId(modid)
     modName(mod_name)
 
-    entrypoint("main", "org.teamvoided.template.Template::commonInit")
-    entrypoint("client", "org.teamvoided.template.Template::clientInit")
-    entrypoint("fabric-datagen", "org.teamvoided.template.TemplateData")
+    entrypoint("main", "org.teamvoided.house_cards.HouseOfCards::commonInit")
+    entrypoint("client", "org.teamvoided.house_cards.HouseOfCards::clientInit")
+    entrypoint("fabric-datagen", "org.teamvoided.house_cards.data.gen.HouseOfCardsData")
     mixinFile("$modid.mixins.json")
 
 //    accessWidener("$modid.accesswidener")

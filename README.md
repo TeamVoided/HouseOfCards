@@ -1,2 +1,2 @@
-# The TeamVoided Template
-Template mod by TeamVoided
+#  House of Cards
+Funny card mod

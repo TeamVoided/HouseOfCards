@@ -1,8 +1,8 @@
-projectTitle = "Team Voided Template"
-modId = "template"
-githubRepo = "Teamvoided/TeamVoidedTemplateMod"
+projectTitle = "House Of Cards"
+modId = "house_cards"
+githubRepo = "Teamvoided/HouseOfCards"
 discordServerInviteId = "KZ5Q364hEg"
-authors = [ "brokenfuse", "theendercore" ]
+authors = [ "TheEnderCore", "Astra" ]
 majorMinecraftVersion = "1.20"
 minecraftVersion = "1.20.6"
 fabricLoaderVersion = "0.15.11"

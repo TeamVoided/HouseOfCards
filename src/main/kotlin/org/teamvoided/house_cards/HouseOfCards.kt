@@ -1,15 +1,15 @@
-package org.teamvoided.template
+package org.teamvoided.house_cards
 
 import net.minecraft.util.Identifier
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
 @Suppress("unused")
-object Template {
-    const val MODID = "template"
+object HouseOfCards {
+    const val MODID = "house_cards"
 
     @JvmField
-    val log: Logger = LoggerFactory.getLogger(Template::class.simpleName)
+    val log: Logger = LoggerFactory.getLogger(HouseOfCards::class.simpleName)
 
     fun commonInit() {
         log.info("Hello from Common")
