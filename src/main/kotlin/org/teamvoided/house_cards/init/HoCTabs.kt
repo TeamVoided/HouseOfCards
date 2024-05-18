@@ -19,6 +19,7 @@ object HoCTabs {
             .entries { _, entires ->
                 entires.addStacks(
                     mutableSetOf(
+                        HoCItems.BOOSTER_PACK.defaultStack,
                         HoCItems.ACE_OF_HEARTS.defaultStack,
                         HoCItems.ACE_OF_SPADES.defaultStack
                     )

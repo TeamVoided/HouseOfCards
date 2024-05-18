@@ -16,6 +16,7 @@ class EnTranslationProvider(o: FabricDataOutput, r: CompletableFuture<HolderLook
             HoCItems.TAB_ITEM,
             HoCItems.ACE_OF_SPADES,
             HoCItems.ACE_OF_HEARTS,
+            HoCItems.BOOSTER_PACK,
         )
     override fun generateTranslations(lookup: HolderLookup.Provider, gen: TranslationBuilder) {
         items.forEach{gen.add(it,genLang(it.id))}
